@@ -229,6 +229,14 @@ footer p#copyright {
 footer a {
   color: var(--neutral_grayish_blue);
   border: 1px solid var(--neutral_grayish_blue);
+  background-color: transparent;
+  padding: 2px 5px;
+  border-radius:10px 10px 0px 0px;
+  font-size: 0.8em;
+}
+footer a:hover {
+    border-radius: 10px;
+    font-size: 0.9em;
 }
 
 /* pseudo tablet view */
